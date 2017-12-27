@@ -9,7 +9,7 @@ function get(url) {
         req.send();
     });
 }
-    
+     
 function weatherHistory() { 
     const api = 'http://api.openweathermap.org/data/2.5/weather?';
     const city = document.getElementById('city').value;

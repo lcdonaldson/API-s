@@ -12,7 +12,7 @@ input {
     margin: 0 0.5rem;
     padding: 0.3rem;
     outline: none;
-    font-size: 15px;
+    font-size: 15px; 
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: #fbf9f9; }
