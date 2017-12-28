@@ -1,5 +1,4 @@
-
-
+// Ajax Get
 function get(url) {
     return new Promise((resolve, reject) => {
         const req = new XMLHttpRequest();
@@ -9,7 +8,8 @@ function get(url) {
         req.send();
     });
 }
-     
+
+// This function gives the relative weather now.
 function weatherHistory() { 
     const api = 'http://api.openweathermap.org/data/2.5/weather?';
     const city = document.getElementById('city').value;
