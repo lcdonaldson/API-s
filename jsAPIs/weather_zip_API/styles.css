@@ -36,5 +36,5 @@ button:hover { background-color: #94e4e1; }
     padding: 0.5rem;
     max-width: 250px;
     min-height: 100px;
-    border-radius: 3px;
+    border-radius: 0.1rem;
 }
