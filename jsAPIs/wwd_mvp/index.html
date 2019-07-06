@@ -8,11 +8,23 @@
     <script src="/index.js"></script>
 </head>
 <body>
+    <!-- Styles to be moved externally as application grows.-->
     <style>
+        :root {
+            --primary-bg: #dedede;
+        }
         li {list-style-type: none; }
+        .lo_wrapper {
+            padding: 1rem;
+        }
+        .wrapper_skin { background-color: var(--primary-bg); }
+            
     </style>
-    <button onclick="getInfo()"> INFO </button>
-    <div id='result'>
+
+    <!-- .-->
+    <div class="lo_wrapper wrapper_skin">
+        <button onclick="getInfo()"> INFO </button>
+        <div id='result'></div>
     </div>
 </body>
 </html>
