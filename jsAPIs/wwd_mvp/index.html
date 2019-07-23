@@ -10,18 +10,14 @@
 <body>
     <!-- Styles to be moved externally as application grows.-->
     <style>
-        :root {
-            --primary-bg: #dedede;
-        }
-        li {list-style-type: none; }
-        .lo_wrapper {
-            padding: 1rem;
-        }
+        :root { --primary-bg: #dedede; }
+
+        html { font-size: 16px; }
+        li { list-style-type: none; }
+        .lo_wrapper { padding: 1rem; }
         .wrapper_skin { background-color: var(--primary-bg); }
-            
     </style>
 
-    <!-- .-->
     <div class="lo_wrapper wrapper_skin">
         <button onclick="getInfo()"> INFO </button>
         <div id='result'></div>
